@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="./assets/Images/Logo/title.png" />
+  <title>Suryatantra Enterprises LLP | About Us</title>
+  <meta name="description"
+    content="Suryatantra Enterprises LLP supplies PCB drills, routers, spindles, V-cut blades, and line consumables from Dhayari, Pune. Established in 2019." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="./assets/css/tailwind.css" />
+  <script>
+    document.querySelector('link[href$="tailwind.css"]').addEventListener("error", function () {
+      var script = document.createElement("script");
+      script.src = "https://cdn.tailwindcss.com";
+      document.head.appendChild(script);
+    });
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+</head>
+
+<body class="font-body bg-navy text-slate-700 overflow-x-hidden antialiased">
+
+  <!-- ═════════════════ NAVBAR ═══════════════════ -->
+  <header id="navbar" class="fixed inset-x-0 top-0 z-50 bg-white/95 backdrop-blur-xl border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-5 sm:px-6 flex items-center justify-between h-[76px] gap-4">
+      <a href="./index.html" class="min-w-0 inline-flex items-center rounded-md bg-transparent px-2 py-1">
+        <img src="./assets/Images/Logo/Surytantra Logo-01.png" alt="Suryatantra Enterprises LLP" class="h-8 sm:h-10 w-auto max-w-[168px] sm:max-w-[240px] object-contain object-left" />
+      </a>
+      <div class="flex items-center gap-4 shrink-0">
+        <nav class="hidden lg:block" aria-label="Primary">
+          <ul class="flex items-center gap-7">
+            <li><a href="./index.html" data-page="index" class="nav-link font-display font-semibold text-sm text-slate-700">Home</a></li>
+            <li><a href="./about.html" data-page="about" class="nav-link nav-active font-display font-semibold text-sm text-slate-700">About</a></li>
+            <li><a href="./product.html" data-page="product" class="nav-link font-display font-semibold text-sm text-slate-700">Products</a></li>
+            <li><a href="./blog.html" data-page="blog" class="nav-link font-display font-semibold text-sm text-slate-700">Blog</a></li>
+            <li><a href="./contact.html" data-page="contact" class="nav-link font-display font-semibold text-sm text-slate-700">Contact</a></li>
+          </ul>
+        </nav>
+        <a href="./contact.html?product=PCB%20tooling"
+          class="hidden md:inline-flex items-center gap-2 px-4 py-2 bg-brand-gradient text-white font-display font-semibold text-sm rounded-full shadow-brand hover:-translate-y-0.5 transition-all duration-300">
+          Request a quote
+        </a>
+        <button id="menuToggle" type="button" aria-expanded="false" aria-label="Toggle navigation"
+          style="display:flex;flex-direction:column;justify-content:center;gap:5px;width:40px;height:40px;padding:8px;background:transparent;border:0;cursor:pointer">
+          <span class="hb" style="display:block;width:24px;height:2px;background:#0f172a;border-radius:2px"></span>
+          <span class="hb" style="display:block;width:24px;height:2px;background:#0f172a;border-radius:2px"></span>
+          <span class="hb" style="display:block;width:24px;height:2px;background:#0f172a;border-radius:2px"></span>
+        </button>
+      </div>
+    </div>
+    <div id="mobileMenu" class="lg:hidden bg-white border-t border-slate-200">
+      <ul class="flex flex-col px-5 py-5 gap-4">
+        <li><a href="./index.html" class="font-display font-semibold text-sm text-slate-700">Home</a></li>
+        <li><a href="./about.html" class="font-display font-semibold text-sm text-[#c2410c]">About</a></li>
+        <li><a href="./product.html" class="font-display font-semibold text-sm text-slate-700">Products</a></li>
+        <li><a href="./blog.html" class="font-display font-semibold text-sm text-slate-700">Blog</a></li>
+        <li><a href="./contact.html" class="font-display font-semibold text-sm text-slate-700">Contact</a></li>
+        <li class="pt-2 md:hidden">
+          <a href="./contact.html?product=PCB%20tooling" class="inline-flex items-center justify-center w-full px-4 py-2.5 bg-brand-gradient text-white font-display font-semibold text-sm rounded-full">Request a quote</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+<section class="bg-white">
+  <div class="max-w-7xl mx-auto px-5 sm:px-6 pt-24 pb-5 md:pt-28 md:pb-6 grid lg:grid-cols-2 gap-6 lg:gap-8 items-stretch">
+    <div>
+      <nav class="flex items-center gap-2 text-sm text-slate-500 mb-3" aria-label="Breadcrumb">
+        <a href="./index.html" class="hover:text-[#c2410c]">Home</a>
+        <span aria-hidden="true">/</span>
+        <span class="text-slate-800">About</span>
+      </nav>
+      <p class="text-xs font-display font-semibold uppercase tracking-[.14em] text-[#c2410c] mb-2">Established 2019 · Dhayari, Pune</p>
+      <h1 class="font-display font-extrabold text-[clamp(1.9rem,4vw,3rem)] leading-[1.1] text-slate-900">
+        A supply partner for PCB manufacturers
+      </h1>
+      <div class="mt-3 space-y-2 text-slate-600 text-base leading-relaxed">
+        <p>We started in 2019 to supply the tools a PCB plant wears out: carbide drills, routers, V-cut blades, spindles, and the pins, rings, and brushes around them.</p>
+        <p>Orders come from prototype shops and from volume factories. In-stock items ship in 3–5 business days, and each reorder follows the same specification.</p>
+      </div>
+      <div class="mt-4 flex flex-wrap gap-3">
+        <a href="./product.html" class="inline-flex items-center gap-2 px-6 py-3 bg-brand-gradient text-white font-display font-semibold text-sm rounded-full shadow-brand hover:-translate-y-0.5 transition-all duration-300">
+          View products <i class="fa fa-arrow-right text-xs"></i>
+        </a>
+        <a href="./contact.html?product=PCB%20tooling" class="inline-flex items-center gap-2 px-6 py-3 border border-slate-300 text-slate-700 font-display font-semibold text-sm rounded-full hover:border-brand hover:text-[#c2410c] transition-all duration-300">
+          Request a quote
+        </a>
+      </div>
+    </div>
+    <figure class="relative overflow-hidden rounded-2xl border border-slate-200 h-72 sm:h-80 lg:h-full lg:min-h-[18rem]">
+      <img src="./assets/Images/pmt.jpg" alt="PCB drilling spindle working a panel" class="absolute inset-0 h-full w-full object-cover" />
+    </figure>
+  </div>
+  <div id="company-stats" aria-label="Company figures" class="border-t border-slate-200 bg-surface">
+    <div class="max-w-7xl mx-auto px-5 sm:px-6 grid grid-cols-2 lg:grid-cols-4">
+      <div class="py-4 px-3 text-center border-r border-b lg:border-b-0 border-slate-200">
+        <span class="font-display font-extrabold text-4xl text-slate-900 leading-none" data-count="7" data-suffix="+">7+</span>
+        <span class="mt-2 block text-sm text-slate-600">Years in supply</span>
+      </div>
+      <div class="py-4 px-3 text-center border-b lg:border-b-0 lg:border-r border-slate-200">
+        <span class="font-display font-extrabold text-4xl text-slate-900 leading-none" data-count="500" data-suffix="+">500+</span>
+        <span class="mt-2 block text-sm text-slate-600">Clients served</span>
+      </div>
+      <div class="py-4 px-3 text-center border-r border-slate-200">
+        <span class="font-display font-extrabold text-4xl text-slate-900 leading-none" data-count="1200" data-suffix="+">1200+</span>
+        <span class="mt-2 block text-sm text-slate-600">Products supplied</span>
+      </div>
+      <div class="py-4 px-3 text-center">
+        <span class="font-display font-extrabold text-4xl text-slate-900 leading-none" data-count="99" data-suffix="%">99%</span>
+        <span class="mt-2 block text-sm text-slate-600">Repeat business</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section class="py-8 md:py-10 bg-white">
+    <div class="max-w-7xl mx-auto px-5 sm:px-6">
+      <div class="max-w-2xl mb-5">
+        <p class="text-xs font-display font-semibold uppercase tracking-[.14em] text-[#c2410c] mb-3">Who we supply</p>
+        <h2 class="font-display font-extrabold text-[clamp(1.75rem,3vw,2.5rem)] text-slate-900 leading-tight">
+          Plants that run these lines every day
+        </h2>
+      </div>
+      <div class="grid md:grid-cols-2 gap-4">
+        <article class="bg-surface border border-slate-200 rounded-2xl p-6">
+          <h3 class="font-display font-bold text-slate-900 mb-4">Factory types</h3>
+          <ul class="space-y-3 text-slate-700 text-sm leading-relaxed">
+            <li class="flex items-start gap-3"><i class="fa fa-industry text-[#c2410c] mt-1 shrink-0" aria-hidden="true"></i> Prototype and job-work PCB shops</li>
+            <li class="flex items-start gap-3"><i class="fa fa-industry text-[#c2410c] mt-1 shrink-0" aria-hidden="true"></i> High-volume PCB factories</li>
+            <li class="flex items-start gap-3"><i class="fa fa-industry text-[#c2410c] mt-1 shrink-0" aria-hidden="true"></i> Multilayer and HDI board lines</li>
+            <li class="flex items-start gap-3"><i class="fa fa-industry text-[#c2410c] mt-1 shrink-0" aria-hidden="true"></i> Aluminium-board and depaneling lines</li>
+          </ul>
+        </article>
+        <article class="bg-surface border border-slate-200 rounded-2xl p-6">
+          <h3 class="font-display font-bold text-slate-900 mb-4">What we keep in stock</h3>
+          <ul class="space-y-3 text-slate-700 text-sm leading-relaxed">
+            <li class="flex items-start gap-3"><i class="fa fa-check text-[#c2410c] mt-1 shrink-0" aria-hidden="true"></i> Tungsten carbide and solid carbide drills</li>
+            <li class="flex items-start gap-3"><i class="fa fa-check text-[#c2410c] mt-1 shrink-0" aria-hidden="true"></i> Diamond-coated and aluminium-coated routers</li>
+            <li class="flex items-start gap-3"><i class="fa fa-check text-[#c2410c] mt-1 shrink-0" aria-hidden="true"></i> Hardened-steel V-cut blades</li>
+            <li class="flex items-start gap-3"><i class="fa fa-check text-[#c2410c] mt-1 shrink-0" aria-hidden="true"></i> Spindle spares in alloy steel, ceramic hybrid bearings, and high-speed steel</li>
+          </ul>
+        </article>
+      </div>
+      <div class="mt-4 grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <article class="border border-slate-200 rounded-2xl p-5">
+          <p class="font-display font-bold text-slate-900 mb-2">Specified tooling</p>
+          <p class="text-sm text-slate-600 leading-relaxed">Diameter, coating, and board stack are confirmed before the quote, so the tool matches the machine already on the line.</p>
+        </article>
+        <article class="border border-slate-200 rounded-2xl p-5">
+          <p class="font-display font-bold text-slate-900 mb-2">Stock on hand</p>
+          <p class="text-sm text-slate-600 leading-relaxed">In-stock items leave Dhayari in 3–5 business days. If a size is not on the shelf, we say so before you plan the run.</p>
+        </article>
+        <article class="border border-slate-200 rounded-2xl p-5">
+          <p class="font-display font-bold text-slate-900 mb-2">One catalogue</p>
+          <p class="text-sm text-slate-600 leading-relaxed">Drills, routers, spindles, V-cut blades, pins, rings, and brushes are ordered from the same desk.</p>
+        </article>
+        <article class="border border-slate-200 rounded-2xl p-5">
+          <p class="font-display font-bold text-slate-900 mb-2">The same number</p>
+          <p class="text-sm text-slate-600 leading-relaxed">Call or WhatsApp the team that raises the quote. The same number handles the follow-up.</p>
+        </article>
+      </div>
+      <div class="mt-5 pt-5 border-t border-slate-200 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+        <div>
+          <h2 class="font-display font-bold text-xl text-slate-900">Send the size you are running</h2>
+          <p class="mt-1 text-sm text-slate-600">Share the diameter, coating, and quantity.</p>
+        </div>
+        <div class="flex flex-wrap gap-3">
+          <a href="./contact.html?product=PCB%20tooling" class="inline-flex items-center gap-2 px-6 py-3 bg-brand-gradient text-white font-display font-semibold text-sm rounded-full shadow-brand hover:-translate-y-0.5 transition-all duration-300">
+            <i class="fa fa-envelope text-xs"></i> Request a quote
+          </a>
+          <a href="https://wa.me/919730429324?text=Hello%2C%20I%20would%20like%20a%20quote%20for%20PCB%20tooling." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-6 py-3 border border-slate-300 text-slate-700 font-display font-semibold text-sm rounded-full hover:border-brand hover:text-[#c2410c] transition-all duration-300">
+            <i class="fab fa-whatsapp"></i> WhatsApp the team
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- ════════════════════════════════════════════════════════════
+     FOOTER PLACEHOLDER
+════════════════════════════════════════════════════════════ -->
+  <footer id="site-footer" class="relative overflow-hidden text-slate-600">
+     <!-- <div class="h-0.5 bg-[#f97316]"></div> -->
+    <div class="mx-auto max-w-7xl px-5 sm:px-6 py-6 lg:py-10">
+      <div class="grid grid-cols-2 gap-x-6 gap-y-6 lg:grid-cols-12 lg:gap-x-10">
+        <div class="col-span-2 lg:col-span-4">
+          <a href="./index.html" class="inline-flex">
+            <img src="./assets/Images/Logo/Surytantra Logo-01.png" alt="Suryatantra Enterprises LLP" class="h-11 w-auto" />
+          </a>
+          <p class="mt-4 max-w-sm text-sm leading-relaxed text-slate-600">PCB drills, routers, spindles, V-cut blades, and line consumables. Supplied from Dhayari, Pune.</p>
+        </div>
+        <div class="lg:col-span-2">
+          <p class="footer-kicker">Company</p>
+          <ul class="space-y-2 text-sm">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="lg:col-span-3">
+          <p class="footer-kicker">Products</p>
+          <ul class="space-y-2 text-sm">
+            <li><a href="./product.html#pcb-drill">PCB drill tools</a></li>
+            <li><a href="./product.html#pcb-routing">PCB routing tools</a></li>
+            <li><a href="./product.html#spindle">Spindles and spares</a></li>
+            <li><a href="./product.html#vcut">V-cut blades</a></li>
+            <li><a href="./product.html#more">Line consumables</a></li>
+          </ul>
+        </div>
+        <div class="col-span-2 lg:col-span-3">
+          <p class="footer-kicker">Enquire</p>
+          <ul class="space-y-2.5 text-sm">
+            <li><a href="tel:+919730429324" class="inline-flex items-center gap-2.5"><i class="fi fa fa-phone" aria-hidden="true"></i>+91 97304 29324</a></li>
+            <li><a href="mailto:suryatantraa@gmail.com" class="inline-flex items-center gap-2.5"><i class="fi fa fa-envelope" aria-hidden="true"></i>suryatantraa@gmail.com</a></li>
+            <li><a href="https://wa.me/919730429324" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2.5"><i class="fi fab fa-whatsapp" aria-hidden="true"></i>WhatsApp the team</a></li>
+            <li><a href="./contact.html?product=PCB%20tooling" class="inline-flex items-center gap-2.5"><i class="fi fa fa-arrow-right" aria-hidden="true"></i>Request a quote</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bar mt-8 flex flex-col gap-2 border-t border-slate-200 pt-4 text-sm text-slate-500 sm:flex-row sm:items-center sm:justify-between">
+        <p class="flex gap-2.5 text-slate-600"><i class="fi fa fa-location-dot mt-0.5" aria-hidden="true"></i><span>S.No. 143, Milkat No. 1094/3, Opp. Green-Field Hotel, Sinhagad Road, Dhayari, Pune 411041</span></p>
+        <div class="footer-end">
+          <p>© <span id="year"></span> Suryatantra Enterprises LLP. All rights reserved.</p>
+          <div class="footer-actions">
+            <button type="button" class="footer-action" data-go-top aria-label="Go to top"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+            <a href="https://wa.me/919730429324?text=Hello%2C%20I%20would%20like%20a%20quote%20for%20PCB%20tooling." target="_blank" rel="noopener noreferrer" class="footer-action footer-action-wa" aria-label="WhatsApp us for a quote"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- ════════════════════════════════════════════════════════════
+     SCRIPTS
+════════════════════════════════════════════════════════════ -->
+  <script src="./assets/js/leads.js"></script>
+  <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
